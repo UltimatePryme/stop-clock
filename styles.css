@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;300;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    color:#80FF00;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 19rem 0;
+}
+
+.container {
+    background: #171717;
+    border-radius: 30px;
+    margin-bottom: 7rem;
+    width: 1400px;
+    height: auto;
+    padding: 2rem 6rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem; */
+    background-color: black;
+    width: 1209px;
+    font-size: 100px;
+    padding-left: 1rem;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.colon {
+    letter-spacing: 0;
+    background-color: transparent;
+    padding: 0;
+
+}
+
+li p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 3rem;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    width: 181px;
+    height: 181px;
+    border-radius: 50%;
+    margin: 0 3rem;
+    background-color: #171717;
+    color: #80FF00;
+    font-family: 700;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #80FF00;
+    color: aliceblue;
+}
